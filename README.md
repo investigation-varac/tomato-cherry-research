@@ -10,6 +10,7 @@ Base de conocimiento completa sobre producción, manejo, calidad y detección au
 ## Estructura
 
 ```
+BIBLIOGRAPHY.md      # Referencias bibliográficas centralizadas
 papers/              # Literatura científica (PDF, DOI, resúmenes)
 variedades/          # Catálogo de variedades comerciales
 nutricion/           # Soluciones nutritivas, EC, pH por etapa fenológica
