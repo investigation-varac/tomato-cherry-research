@@ -15,7 +15,6 @@ variedades/          # Catálogo de variedades comerciales
 nutricion/           # Soluciones nutritivas, EC, pH por etapa fenológica
 fenologia/           # Grados día, etapas de desarrollo, floración
 sanidad/             # Plagas, enfermedades, MIP, umbrales de acción
-vision-computadora/  # YOLO, datasets, modelos de detección
 produccion/          # Datos de campo, rendimientos, benchmarks
 labores-culturales/  # Poda, deshoje, entutorado, raleo de frutos
 calidad/             # °Brix, firmeza, vida de anaquel, postcosecha
@@ -29,7 +28,6 @@ calidad/             # °Brix, firmeza, vida de anaquel, postcosecha
 - **Mayor °Brix** (típicamente 7-10° vs 4.5-6°)
 - **Vida de anaquel diferente**
 - **Manejo de raleo** más crítico
-- **Detección CV más compleja** (densidad de objetos)
 
 ### Tipos Principales
 - **Cherry**: redondos, 15-25g
@@ -42,16 +40,17 @@ calidad/             # °Brix, firmeza, vida de anaquel, postcosecha
 - [ ] Indicadores de calidad (°Brix, firmeza, color)
 - [ ] Nutrición por etapa fenológica
 - [ ] Manejo cultural óptimo (raleo, poda, carga frutal)
-- [ ] Detección por visión computadora (conteo, madurez)
 - [ ] Problemas fitosanitarios específicos
 - [ ] Benchmarks de producción (kg/m²/año)
+- [ ] Fenología y grados día acumulados
+- [ ] Soluciones nutritivas por etapa
 
 ## Contexto Operacional
 
 **Caso de estudio inicial:** Operación Chaparral, Nayarit
 - Sistema low-tech
 - Problema: gestión de deshoje (hojas en pasillos = riesgo fitosanitario)
-- Oportunidad: alta densidad de frutos para entrenamiento de modelos CV
+- Alta carga frutal en diferentes estados de madurez
 
 ---
 
